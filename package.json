@@ -1,0 +1,16 @@
+{
+  "name": "elasticsearch-signing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-crypto/sha256-browser": "^2.0.1",
+    "@aws-sdk/credential-provider-node": "^3.41.0",
+    "@aws-sdk/node-http-handler": "^3.40.0",
+    "@aws-sdk/protocol-http": "^3.40.0",
+    "@aws-sdk/signature-v4": "^3.40.0",
+    "aws-sdk": "^2.1046.0",
+    "elasticsearch": "^16.7.2",
+    "http-aws-es": "^6.0.0"
+  }
+}
